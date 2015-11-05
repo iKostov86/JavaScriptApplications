@@ -1,0 +1,24 @@
+{
+  "name": "system.js",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "iKostov86 <i.kostov86@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/iKostov86/JavaScriptApplications",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "system.js": "~0.19.5",
+    "jquery": "~2.1.4",
+    "browser": "https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.js",
+    "handlebars": "~4.0.4"
+  }
+}
