@@ -1,0 +1,21 @@
+{
+  "name": "Underscore.JS",
+  "homepage": "https://github.com/iKostov86/JavaScriptApplications",
+  "authors": [
+    "iKostov86 <i.kostov86@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "underscore": "~1.8.3"
+  }
+}
