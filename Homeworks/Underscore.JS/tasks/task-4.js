@@ -26,8 +26,27 @@ Create a function that:
 */
 
 function solve(){
-  return function (animals) {
-  };
+    return function (animals) {
+        var groups = _
+            .chain(animals)
+            .sortBy('species')
+            .reverse()
+            .groupBy('species')
+            .value();
+
+        _.chain(groups)
+            .each(function (value, key) {
+                var sortedGroup = _.chain(value).sortBy('name').sortBy('legsCount').value();
+
+                console.log(new Array(key.length + 2).join('-'));
+                console.log(key + ':');
+                console.log(new Array(key.length + 2).join('-'));
+
+                _.chain(sortedGroup).each(function (animal) {
+                    console.log(animal.name + ' has ' + animal.legsCount + ' legs');
+                })
+            });
+    };
 }
 
 module.exports = solve;
