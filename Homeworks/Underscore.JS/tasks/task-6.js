@@ -12,25 +12,42 @@
 
 function solve() {
     return function (books) {
-        var sortedAuthors = _
-            .chain(books)
+        //var sortedAuthors = _
+        //    .chain(books)
+        //    .sortBy(function (book) {
+        //        return book.author.firstName + ' ' + book.author.lastName;
+        //    })
+        //    .countBy(function (book) {
+        //        return book.author.firstName + ' ' + book.author.lastName;
+        //    })
+        //    .value();
+        //
+        //var maxBooksCount = _.max(sortedAuthors, function (value) {
+        //    return value;
+        //});
+        //
+        //_.each(sortedAuthors, function (value, key) {
+        //    if (value === maxBooksCount) {
+        //        console.log(key);
+        //    }
+        //});
+        _.chain(books)
             .sortBy(function (book) {
                 return book.author.firstName + ' ' + book.author.lastName;
             })
             .countBy(function (book) {
                 return book.author.firstName + ' ' + book.author.lastName;
             })
-            .value();
+            .reduce(function (memo, value, key) {
+                if (!memo) {
+                    memo = value;
+                    console.log(key);
+                } else if (memo === value) {
+                    console.log(key);
+                }
 
-        var maxBooksCount = _.max(sortedAuthors, function (value) {
-            return value;
-        });
-
-        _.each(sortedAuthors, function (value, key) {
-            if (value === maxBooksCount) {
-                console.log(key);
-            }
-        });
+                return memo;
+            }, undefined);
     };
 }
 
