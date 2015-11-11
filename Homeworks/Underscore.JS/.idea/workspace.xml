@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="f8a08523-95d4-4c59-9846-fba0d2545ef4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+=======
     <list default="true" id="f8a08523-95d4-4c59-9846-fba0d2545ef4" name="Default" comment="" />
+>>>>>>> 51c943a53ee961b54c8f5848194e4e59cdf7f55d
     <ignored path="Underscore.JS.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,10 +100,30 @@
       <option name="number" value="Default" />
       <updated>1447067696468</updated>
     </task>
+<<<<<<< HEAD
+    <task id="LOCAL-00001" summary="underscore tasks 1,2 3, 4 are done">
+      <created>1447122664056</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1447122664056</updated>
+    </task>
+    <task id="LOCAL-00002" summary="underscore all tasks are done">
+      <created>1447198638482</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1447198638482</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+=======
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+>>>>>>> 51c943a53ee961b54c8f5848194e4e59cdf7f55d
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -130,6 +156,14 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="underscore tasks 1,2 3, 4 are done" />
+    <MESSAGE value="underscore all tasks are done" />
+    <option name="LAST_COMMIT_MESSAGE" value="underscore all tasks are done" />
+  </component>
+=======
+>>>>>>> 51c943a53ee961b54c8f5848194e4e59cdf7f55d
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
